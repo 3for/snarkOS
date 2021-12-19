@@ -31,7 +31,7 @@ bytes = "1.0.0"
 futures = { version = "0.3.17", features = ["thread-pool"]}
 
 crossterm = { version = "0.22" }
-tui = { version = "0.16.0", features = ["crossterm"] }
+tui = { git = "https://github.com/fdehau/tui-rs.git", features = ["crossterm"] }
 
 [dependencies.snarkos-storage]
 path = "./storage"
